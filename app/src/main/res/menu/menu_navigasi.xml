@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group
+            android:id="@+id/grp_1"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_daftem"
+                android:icon="@drawable/ic_group"
+                android:title="Daftar Teman" />
+            <item
+                android:id="@+id/nav_kontak"
+                android:icon="@drawable/ic_contacts"
+                android:title="Kontak" />
+            <item
+                android:id="@+id/nav_prof"
+                android:icon="@drawable/ic_person"
+                android:title="Profil" />
+        </group>
+</menu>
